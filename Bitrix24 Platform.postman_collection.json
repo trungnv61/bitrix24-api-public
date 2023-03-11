@@ -1,0 +1,293 @@
+{
+	"info": {
+		"_postman_id": "38886df8-b8bd-405c-9a4a-0ee7cce87714",
+		"name": "Bitrix24 Platform",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16706330"
+	},
+	"item": [
+		{
+			"name": "SendGroup",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://b24-l0s8tx.bitrix24.vn/rest/1/rbngel836hv0opwc/im.message.add.json?DIALOG_ID=chat97&MESSAGE=Hello mọi người&SYSTEM=N&ATTACH&URL_PREVIEW&KEYBOARD&MENU",
+							"protocol": "https",
+							"host": [
+								"b24-l0s8tx",
+								"bitrix24",
+								"vn"
+							],
+							"path": [
+								"rest",
+								"1",
+								"rbngel836hv0opwc",
+								"im.message.add.json"
+							],
+							"query": [
+								{
+									"key": "DIALOG_ID",
+									"value": "chat97"
+								},
+								{
+									"key": "MESSAGE",
+									"value": "Hello mọi người"
+								},
+								{
+									"key": "SYSTEM",
+									"value": "N"
+								},
+								{
+									"key": "ATTACH",
+									"value": null
+								},
+								{
+									"key": "URL_PREVIEW",
+									"value": null
+								},
+								{
+									"key": "KEYBOARD",
+									"value": null
+								},
+								{
+									"key": "MENU",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SendPersonal",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://b24-l0s8tx.bitrix24.vn/rest/1/rbngel836hv0opwc/im.message.add.json?DIALOG_ID=7&MESSAGE=Hello Tài&SYSTEM=N&ATTACH&URL_PREVIEW&KEYBOARD&MENU",
+							"protocol": "https",
+							"host": [
+								"b24-l0s8tx",
+								"bitrix24",
+								"vn"
+							],
+							"path": [
+								"rest",
+								"1",
+								"rbngel836hv0opwc",
+								"im.message.add.json"
+							],
+							"query": [
+								{
+									"key": "DIALOG_ID",
+									"value": "7"
+								},
+								{
+									"key": "MESSAGE",
+									"value": "Hello Tài"
+								},
+								{
+									"key": "SYSTEM",
+									"value": "N"
+								},
+								{
+									"key": "ATTACH",
+									"value": null
+								},
+								{
+									"key": "URL_PREVIEW",
+									"value": null
+								},
+								{
+									"key": "KEYBOARD",
+									"value": null
+								},
+								{
+									"key": "MENU",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ReadGroup",
+			"item": [
+				{
+					"name": "https://b24-l0s8tx.bitrix24.vn/rest/1/rbngel836hv0opwc/im.dialog.read.json?DIALOG_ID=chat97&MESSAGE_ID=797",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://b24-l0s8tx.bitrix24.vn/rest/1/rbngel836hv0opwc/im.dialog.messages.get.json?DIALOG_ID=chat97",
+							"protocol": "https",
+							"host": [
+								"b24-l0s8tx",
+								"bitrix24",
+								"vn"
+							],
+							"path": [
+								"rest",
+								"1",
+								"rbngel836hv0opwc",
+								"im.dialog.messages.get.json"
+							],
+							"query": [
+								{
+									"key": "DIALOG_ID",
+									"value": "chat97"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://b24-l0s8tx.bitrix24.vn/rest/1/rbngel836hv0opwc/im.dialog.read.json?DIALOG_ID=chat97&MESSAGE_ID=841",
+							"protocol": "https",
+							"host": [
+								"b24-l0s8tx",
+								"bitrix24",
+								"vn"
+							],
+							"path": [
+								"rest",
+								"1",
+								"rbngel836hv0opwc",
+								"im.dialog.read.json"
+							],
+							"query": [
+								{
+									"key": "DIALOG_ID",
+									"value": "chat97"
+								},
+								{
+									"key": "MESSAGE_ID",
+									"value": "841"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ReadPersonal",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://b24-l0s8tx.bitrix24.vn/rest/1/rbngel836hv0opwc/im.dialog.messages.get.json?DIALOG_ID=7",
+							"protocol": "https",
+							"host": [
+								"b24-l0s8tx",
+								"bitrix24",
+								"vn"
+							],
+							"path": [
+								"rest",
+								"1",
+								"rbngel836hv0opwc",
+								"im.dialog.messages.get.json"
+							],
+							"query": [
+								{
+									"key": "DIALOG_ID",
+									"value": "7"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://b24-l0s8tx.bitrix24.vn/rest/1/rbngel836hv0opwc/im.dialog.read.json?DIALOG_ID=7&MESSAGE_ID=801",
+							"protocol": "https",
+							"host": [
+								"b24-l0s8tx",
+								"bitrix24",
+								"vn"
+							],
+							"path": [
+								"rest",
+								"1",
+								"rbngel836hv0opwc",
+								"im.dialog.read.json"
+							],
+							"query": [
+								{
+									"key": "DIALOG_ID",
+									"value": "7"
+								},
+								{
+									"key": "MESSAGE_ID",
+									"value": "801"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://b24-l0s8tx.bitrix24.vn/rest/1/rbngel836hv0opwc/im.user.get.json?ID=1&AVATAR_HR=N",
+					"protocol": "https",
+					"host": [
+						"b24-l0s8tx",
+						"bitrix24",
+						"vn"
+					],
+					"path": [
+						"rest",
+						"1",
+						"rbngel836hv0opwc",
+						"im.user.get.json"
+					],
+					"query": [
+						{
+							"key": "ID",
+							"value": "1"
+						},
+						{
+							"key": "AVATAR_HR",
+							"value": "N"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
